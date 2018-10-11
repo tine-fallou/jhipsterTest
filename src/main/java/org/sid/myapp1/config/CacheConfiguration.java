@@ -40,6 +40,8 @@ public class CacheConfiguration {
             cm.createCache(org.sid.myapp1.domain.User.class.getName() + ".authorities", jcacheConfiguration);
             cm.createCache(org.sid.myapp1.domain.PersistentToken.class.getName(), jcacheConfiguration);
             cm.createCache(org.sid.myapp1.domain.User.class.getName() + ".persistentTokens", jcacheConfiguration);
+            cm.createCache(org.sid.myapp1.domain.Book.class.getName(), jcacheConfiguration);
+            cm.createCache(org.sid.myapp1.domain.Books.class.getName(), jcacheConfiguration);
             // jhipster-needle-ehcache-add-entry
         };
     }

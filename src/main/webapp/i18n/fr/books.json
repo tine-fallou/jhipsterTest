@@ -1,0 +1,24 @@
+
+{
+    "pressingApp": {
+        "books" : {
+            "home": {
+                "title": "Books",
+                "createLabel": "Créer un nouveau Books",
+                "createOrEditLabel": "Créer ou éditer un Books",
+                "search": "Recherche pour Books"
+            },
+            "created": "Un nouveau Books a été créé avec l'identifiant {{ param }}",
+            "updated": "Le Books avec l'identifiant {{ param }} a été mis à jour",
+            "deleted": "Le Books avec l'identifiant {{ param }} a été supprimé",
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le Books {{ id }} ?"
+            },
+            "detail": {
+                "title": "Books"
+            },
+            "name": "Name",
+            "author": "Author"
+        }
+    }
+}
